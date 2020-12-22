@@ -11,11 +11,19 @@ $(function () {
 		nextArrow: $('.next')
 	});
 
-	//FANCYBOX
+	// FANCYBOX
 	$('[data-fancybox]').fancybox({
 		youtube : {
 			controls : 0,
 			showinfo : 0
 		}
+	});
+
+	// PAGE SCROLL
+	$(window).ready(function() {
+		$(".nav a").mPageScroll2id({
+			offset: 50,
+			speed: 200
+		});
 	});
 });
