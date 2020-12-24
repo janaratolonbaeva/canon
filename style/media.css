@@ -1,8 +1,9 @@
 @media screen and (min-width: 680px) {
-    .promo .pattern {
-        display: block;
+    .page {
+        overflow: hidden;
     }
     .promo .pattern {
+        display: block;
         width: 200%;
     }
     .promo_text h1 {
@@ -152,6 +153,9 @@
     }
 }
 @media screen and (min-width: 1500px) {
+    .page {
+        overflow: inherit;
+    }
     .promo {
         overflow: inherit;
     }
