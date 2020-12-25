@@ -1,7 +1,11 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
 body {
     font-family: 'Gotham Pro', sans-serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     color: #272727;
     background-color: #f4f7f9;
@@ -9,7 +13,6 @@ body {
 .container {
     width: 100%;
     max-width: 1170px;
-    min-width: 320px;
     padding: 0 50px;
     margin: 0 auto;
 }
@@ -38,7 +41,7 @@ body {
 }
 .title h2 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 24px;
     line-height: normal;
     text-transform: uppercase;
     color: #323232;
@@ -457,12 +460,15 @@ body {
     text-align: center;
 }
 .distributor_row {
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 60px 0;
 }
 .distributor_col {
     text-align: center;
     padding: 0 20px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .distributor_col img {
     max-width: 100%;
@@ -471,13 +477,13 @@ body {
 .btn {
     border: none;
     box-shadow: none;
-    line-height: 62px;
+    padding: 0 35px;
+    font-size: 20px;
+    line-height: 42px;
     display: inline-block;
     text-align: center;
     color: #fff;
     background-color: #cc0000;
-    padding: 0 75px;
-    font-size: 24px;
     font-weight: bold;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
