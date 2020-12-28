@@ -1,12 +1,12 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+}
 @media screen and (min-width: 480px) {
     body {
         font-size: 18px;
     }
     .title h2 {
         font-size: 28px;
-    }
-    .distributor_col {
-        width: 50%;
     }
 }
 @media screen and (min-width: 680px) {
@@ -35,10 +35,6 @@
     }
     .distributor_row {
         justify-content: space-between;
-    }
-    .distributor_col {
-        width: 100%;
-        margin-bottom: 0;
     }
     .btn {
         padding: 0 75px;

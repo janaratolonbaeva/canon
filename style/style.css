@@ -461,14 +461,11 @@ body {
 }
 .distributor_row {
     justify-content: center;
-    flex-wrap: wrap;
     padding: 60px 0;
 }
 .distributor_col {
     text-align: center;
     padding: 0 20px;
-    width: 100%;
-    margin-bottom: 10px;
 }
 .distributor_col img {
     max-width: 100%;
