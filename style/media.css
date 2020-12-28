@@ -1,6 +1,4 @@
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 
-}
 @media screen and (min-width: 480px) {
     body {
         font-size: 18px;
@@ -10,9 +8,6 @@
     }
 }
 @media screen and (min-width: 680px) {
-    .page {
-        overflow: hidden;
-    }
     .promo .pattern {
         display: block;
         width: 200%;
